@@ -271,7 +271,7 @@ header {
 
 .cater3-movingBG {
   height: 100%;
-  background-image: url('img/background.jpg');
+  background-image: url("img/background.jpg");
   background-size: 125%;
   background-repeat: repeat-x;
 
