@@ -1,0 +1,371 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+#rectangle{
+  width: 150px;
+  height: 50px;
+  background: #bddf26;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(211, 233, 19, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 97px;
+  transition: all 0.5s;
+}
+.logo:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position:relative;
+}
+
+.header-right li a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: bebas;
+}
+
+.header-right li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+
+.header-right li:hover::after {
+  width: 100%;
+}
+
+/* Add CSS for menu-icon */
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.contacts {
+  padding-bottom: 300px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: bebas;
+}
+.contacts h2{
+  font-size: 65px;
+  color:#c5bd4a;
+}
+
+.help {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+  font-family: bebas;
+}
+
+.help h2 {
+  font-weight: normal;
+  font-size: 50px;
+}
+
+.help h3 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.subject {
+  float: left;
+  width: 25%;
+}
+
+.subject-icon {
+  position: relative;
+}
+
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 25px;
+  color: #a7ad47;
+  text-align: center;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #6eb5ee;
+  cursor: pointer;
+  box-shadow: 0 7px #1c4f92;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+.footer {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+  font-family: bebas;
+}
+
+.footer li {
+  padding:0 10px;
+}
+
+.footer ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer ul a:hover {
+  opacity:1;
+}
+
+.footer .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer .social > a:hover {
+  opacity:0.9;
+}
+
+.footer .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+/* About me */
+.foto img {
+	width: 250px;
+	border: 5px solid #e5ff00;
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 1px 1px 10px rgba(255, 230, 0, 0.582);
+}
+
+.tengah{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+}
+
+.bio h1{
+  text-align:center;
+  font-family: bebas;
+  color: rgb(255, 251, 11); 
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 45px;
+}
+
+.about{
+  color:rgb(255, 255, 255);
+}
+
+.bio hr{
+    width: 50%;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    height: 7px;
+    background:rgb(218, 255, 8);
+}
+
+.talk{
+  padding-top: 20px;
+  color: rgb(255, 251, 11);
+  text-align: justify;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 35px;
+  font-family: bebas;
+
+}
+
+/* Author CSS */
+
+.cater3-movingBG {
+  height: 100%;
+  background-image: url('/img/background.jpg');
+  background-size: 125%;
+  background-repeat: repeat-x;
+
+  animation: animatedBackground 15s linear alternate infinite;
+}
+
+@keyframes animatedBackground {
+  0% { background-position: 0 0; }
+  50% { background-position: 50% 0; }
+  100% { background-position: 0 0; }
+}
+
+.flyinTxtCont {
+  
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-bottom: 10%;
+  margin-left: 2em;
+}
+.flyIn {
+  color:#fff;
+  font-family: bebas;
+  text-transform:uppercase;
+  line-height:1.2em;
+  position:relative;
+text-shadow: 2px 2px 40px rgba(0,0,0,0.7);
+}
+.lineOne {
+transition-delay:.2s; 
+transition:.4s ease in;
+animation: txtFlyIn .3s linear;
+}
+.lineTwo {
+  transition-delay:.4s; 
+  transition:.6s ease in;
+  animation: txtFlyIn .6s linear;
+}
+.lineThree {
+  transition-delay:.6s; 
+  transition:.8s ease in;
+  animation: txtFlyIn .9s linear;
+}
+.lineOne, .lineTwo, .lineThree {
+  font-size:110px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.lineFour {
+  transition-delay:2s; 
+  transition:2s ease in;
+  animation: fadeIn 2s linear;
+  width: 100%;
+  background-color:rgba(255,255,255,0.9);
+  display:inline-block;
+  color:#000;
+  box-sizing:border-box;
+  max-width:63%;
+  max-width: 22em;
+  font-size: 32px;
+  padding: .2em .5em;
+  margin-top: 30px;
+}
+@keyframes fadeIn{
+  0% { opacity:0;}
+  100% { opacity:1;}
+}
+@keyframes txtFlyIn{
+  0% { transform:translateX(-100%); }
+  100% { transform:translateX(0%); }
+}
+
+.portfolio {
+	background-color: #eee;
+}
+
+.portfolio .thumbnail {
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+.portfolio .thumbnail.muncul {
+	opacity: 1;
+	transform: translate(0,0);
+}

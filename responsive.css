@@ -1,0 +1,39 @@
+/* Tablets View*/
+@media all and (max-width: 1000px) {
+  .subject {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .help h3 {
+    font-size: 15px;
+  }
+
+  .help h2 {
+    font-size: 20px;
+  }
+
+  .talk{
+    font-size: 17px;
+  }
+}
+
+/* Smartphone View */
+@media all and (max-width: 670px) {
+  .subject {
+    width: 100%;
+  }
+  
+  .talk{
+    font-size: 15px;
+  }
+
+  footer {
+    text-align: center;
+  }
+  
+  .header-right{
+    display: none;
+  }
+  
+}
