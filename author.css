@@ -3,6 +3,12 @@
 
 }
 
+@font-face
+  {
+    font-family: "Bebasfont";
+    src: url("font/bebas/Bebas-Regular.otf");
+  }
+
 body {
   margin: 0;
 
@@ -60,7 +66,7 @@ header {
   float: left;
   font-size: 25px;
   text-decoration: none;
-  font-family: bebas;
+  font-family: Bebasfont;
 }
 
 .header-right li::after {
@@ -78,8 +84,7 @@ header {
   width: 100%;
 }
 
-/* Add CSS for menu-icon */
-.menu-icon{
+.subject-icon{
   color: white;
   float: right;
   font-size: 25px;
@@ -93,7 +98,7 @@ header {
   padding-right: 5%;
   background-color: #ffffff;
   text-align: center;
-  font-family: bebas;
+  font-family: Bebasfont;
 }
 .contacts h2{
   font-size: 65px;
@@ -104,7 +109,7 @@ header {
   padding-top: 80px;
   padding-bottom: 50px;
   color: #5f5d60;
-  font-family: bebas;
+  font-family: Bebasfont;
 }
 
 .help h2 {
@@ -169,7 +174,7 @@ header {
   font-size:18px;
   line-height:1.6;
   margin-bottom:0;
-  font-family: bebas;
+  font-family: Bebasfont;
 }
 
 .footer li {
@@ -227,15 +232,15 @@ header {
 }
 
 .tengah{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 .bio h1{
   text-align:center;
-  font-family: bebas;
+  font-family: Bebasfont;
   color: rgb(255, 251, 11); 
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
@@ -263,18 +268,17 @@ header {
   margin-left: 5%;
   margin-right: 5%;
   font-size: 35px;
-  font-family: bebas;
+  font-family: Bebasfont;
 
 }
 
 /* Author CSS */
 
-.cater3-movingBG {
+.fototampan {
   height: 100%;
   background-image: url("img/background.jpg");
   background-size: 125%;
   background-repeat: repeat-x;
-
   animation: animatedBackground 15s linear alternate infinite;
 }
 
@@ -284,7 +288,7 @@ header {
   100% { background-position: 0 0; }
 }
 
-.flyinTxtCont {
+.textbergerak {
   
   height: 100%;
   display: -webkit-box;
@@ -303,35 +307,41 @@ header {
   padding-bottom: 10%;
   margin-left: 2em;
 }
-.flyIn {
+
+.bergerak {
   color:#fff;
-  font-family: bebas;
+  font-family: Bebasfont;
   text-transform:uppercase;
   line-height:1.2em;
   position:relative;
 text-shadow: 2px 2px 40px rgba(0,0,0,0.7);
 }
-.lineOne {
+
+.barissatu {
 transition-delay:.2s; 
 transition:.4s ease in;
-animation: txtFlyIn .3s linear;
+animation: txtgerak .3s linear;
 }
-.lineTwo {
+
+.barisdua {
   transition-delay:.4s; 
   transition:.6s ease in;
-  animation: txtFlyIn .6s linear;
+  animation: txtgeraktxtgerak .6s linear;
 }
-.lineThree {
+
+.baristiga {
   transition-delay:.6s; 
   transition:.8s ease in;
-  animation: txtFlyIn .9s linear;
+  animation: txtgerak .9s linear;
 }
-.lineOne, .lineTwo, .lineThree {
+
+.barissatu, .barisdua, .baristiga {
   font-size:110px;
   font-weight: bold;
   letter-spacing: 3px;
 }
-.lineFour {
+
+.barisempat {
   transition-delay:2s; 
   transition:2s ease in;
   animation: fadeIn 2s linear;
@@ -350,7 +360,7 @@ animation: txtFlyIn .3s linear;
   0% { opacity:0;}
   100% { opacity:1;}
 }
-@keyframes txtFlyIn{
+@keyframes txtgerak{
   0% { transform:translateX(-100%); }
   100% { transform:translateX(0%); }
 }
