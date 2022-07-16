@@ -4,10 +4,7 @@
     width: 50%;
     margin-bottom: 50px;
   }
-  
-  .fototampan{
-    font-size: 45px;
-  }
+ 
   
   .help h3 {
     font-size: 15px;
@@ -32,12 +29,12 @@
     font-size: 15px;
   }
 
-  .textbergerak{
+  .barissatu, .barisdua, .baristiga {
     font-size: 25px;
   }
   
   .header-right{
-    font: 25px;
+    display: none;
   }
   
 }
