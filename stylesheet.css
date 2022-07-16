@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+@font-face
+  {
+    font-family: "Bebasfont";
+    src: url("font/Bebas-Regular.otf");
+  }
 
 body {
   margin: 0;
@@ -88,7 +93,7 @@ subject-icon{
   padding-right: 5%;
   background-color: #ffffff;
   text-align: center;
-  font-family: font/bebas;
+  font-family: Bebasfont;
 }
 .homeworks h2{
   font-size: 65px;
@@ -98,7 +103,7 @@ subject-icon{
   padding-top: 80px;
   padding-bottom: 50px;
   color: #5f5d60;
-  font-family: font/bebas;
+  font-family: Bebasfont;
 }
 
 .help h2 {
@@ -150,7 +155,7 @@ subject-icon{
   font-size:18px;
   line-height:1.6;
   margin-bottom:0;
-  font-family: font/bebas;
+  font-family: Bebasfont;
 }
 
 .footer li {
@@ -207,7 +212,7 @@ subject-icon{
   color: rgb(11, 69, 146);
   cursor: pointer;
   display: inline-block;
-  font-family: bebas;
+  font-family: Bebasfont;
   padding: 7px 20px;
   text-align: center;
   text-decoration: none;
