@@ -215,7 +215,7 @@ header {
   touch-action: manipulation;
 }
 
-.joins-33:hover {
+.joins:hover {
   box-shadow: rgba(47, 81, 194, 0.2) 0 -25px 18px -14px inset,rgba(46, 79, 187, 0.2) 0 1px 2px,rgba(46, 79, 187, 0.2) 0 2px 4px,rgba(46, 79, 187, 0.2) 0 4px 8px,rgba(46, 79, 187, 0.2) 0 8px 16px,rgba(46, 79, 187, 0.2) 0 16px 32px;
   transform: scale(1.05) rotate(-1deg);
 }
