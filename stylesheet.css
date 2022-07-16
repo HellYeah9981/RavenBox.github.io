@@ -78,15 +78,6 @@ header {
   width: 100%;
 }
 
-subject-icon{
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-
-
 .homeworks {
   padding-bottom: 80px;
   padding-left: 5%;
