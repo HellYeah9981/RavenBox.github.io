@@ -36,12 +36,8 @@
     font-size: 25px;
   }
   
-  .footer {
-    text-align: center;
-  }
-  
   .header-right{
-    display: none;
+    font: 25px;
   }
   
 }
