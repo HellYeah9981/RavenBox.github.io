@@ -4,7 +4,11 @@
     width: 50%;
     margin-bottom: 50px;
   }
-
+  
+  .fototampan{
+    font-size: 45px;
+  }
+  
   .help h3 {
     font-size: 15px;
   }
@@ -28,6 +32,10 @@
     font-size: 15px;
   }
 
+  .fototampan{
+    font-size: 25px;
+  }
+  
   footer {
     text-align: center;
   }
