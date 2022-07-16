@@ -73,8 +73,7 @@ header {
   width: 100%;
 }
 
-/* Add CSS for menu-icon */
-.menu-icon{
+subject-icon{
   color: white;
   float: right;
   font-size: 25px;
@@ -89,7 +88,7 @@ header {
   padding-right: 5%;
   background-color: #ffffff;
   text-align: center;
-  font-family: bebas;
+  font-family: font/bebas;
 }
 .homeworks h2{
   font-size: 65px;
@@ -99,7 +98,7 @@ header {
   padding-top: 80px;
   padding-bottom: 50px;
   color: #5f5d60;
-  font-family: bebas;
+  font-family: font/bebas;
 }
 
 .help h2 {
@@ -151,7 +150,7 @@ header {
   font-size:18px;
   line-height:1.6;
   margin-bottom:0;
-  font-family: bebas;
+  font-family: font/bebas;
 }
 
 .footer li {
