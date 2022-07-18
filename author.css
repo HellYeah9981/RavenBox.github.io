@@ -241,9 +241,6 @@ header {
 .bio h1{
   text-align:center;
   font-family: Bebasfont;
-  color: rgb(255, 251, 11); 
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
   font-size: 45px;
 }
 
