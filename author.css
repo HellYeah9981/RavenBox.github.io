@@ -20,7 +20,7 @@ a {
 
 #rectangle{
   width: 150px;
-  height: 50px;
+  height: 65px;
   background: #bddf26;
 }
 
@@ -242,6 +242,9 @@ header {
   text-align:center;
   font-family: Bebasfont;
   font-size: 45px;
+  color: yellow;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .about{
