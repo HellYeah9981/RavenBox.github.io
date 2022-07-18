@@ -258,10 +258,8 @@ header {
 
 .talk{
   padding-top: 20px;
-  color: rgb(255, 251, 11);
+  color: rgb(151 148 21);
   text-align: justify;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
   margin-left: 5%;
   margin-right: 5%;
   font-size: 35px;
